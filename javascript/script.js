@@ -20,6 +20,12 @@ function reset() {
 
 function compChoose() {
   let comp = Math.floor(Math.random() * 3) + 1;
+  let current = document.getElementById(gameString[comp]);
+  current.className = "activate";
+  window.setTimeout(function() {
+      current.classList.remove("activate");
+
+  }, 500);
   return comp;
 }
 
