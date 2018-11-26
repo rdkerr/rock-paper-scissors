@@ -1,0 +1,96 @@
+html {
+    background-color: rgb(17,17,17);
+  }
+  #title {
+    font-size: 5rem;
+    font-family: arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    color: #3D9970;
+    min-width: 600px;
+  }
+  .wrapper {
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    display: grid;
+    min-width: 500px;
+    margin: 40px auto;
+    width: 50%;
+  }
+  .victor {
+    grid-column: 2 / 5;
+    text-transform: uppercase;
+  }
+  
+  .name {
+    font-size: 3rem;
+    border: 1px solid forestgreen;
+    font-family: arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    color: #3D9970;
+  }
+  .box {
+    color: #3D9970;
+    vertical-align: middle;
+    padding: 20px;
+  }
+  
+  button {
+      background:transparent;
+      border: 1px solid #3D9970;;
+      box-shadow: 3px 3px 2px rgba(0,128,0,.90);
+      color: #3D9970;
+      border-radius: 50%;
+      width:5rem;
+      height:5rem;
+      text-decoration: none;
+      transition: all 0.5s;
+      outline: none;  
+  }
+  
+  .buttons:hover {
+      box-shadow: 3px 3px 2px rgba(0,128,0,.60);
+      color: rgb(0, 105, 44);
+      border: 1px solid  rgb(0, 105, 44);
+      transition: all 0.5s;
+  }
+  
+  .buttons:active {
+    transform: translateY(4px);
+    box-shadow: 1px 1px 1px rgba(0,128,0,.90);
+    transition:all 0.1s;
+    color: rgb(0, 105, 44, 0.425);
+    border: 1px solid  rgba(0, 105, 44, 0.425);;
+  }
+  
+  .reset {
+      background:transparent;
+      border: 1px solid #3D9970;
+      box-shadow: 3px 3px 2px rgba(0,128,0,.50);
+      color: #3D9970;
+      width:6rem;
+      height:2rem;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.5s;
+      outline: none;
+      transition:all 1s;
+  
+  }
+  
+  .reset:hover {
+      box-shadow: 3px 3px 2px rgba(0,128,0,.60);
+      color: rgb(0, 105, 44);
+      border: 1px solid  rgb(0, 105, 44);
+      transition: all 0.5s;
+  }
+  
+  .reset:active {
+    transform: translateY(4px);
+    box-shadow: 1px 1px 1px rgba(0,128,0,.60);
+    transition:all 0.1s;
+    color: rgb(0, 105, 44, 0.425);
+    border: 1px solid  rgba(0, 105, 44, 0.425);;
+  }

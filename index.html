@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RPS</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-j8y0ITrvFafF4EkV1mPW0BKm6dp3c+J9Fky22Man50Ofxo2wNe5pT1oZejDH9/Dt" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="title">Rock-Paper-Scissors</div>
+    <div class="wrapper">
+      <div class="box"> <button class="buttons" onclick="playRound(this); roundChange();" data-hand="1" id="Rock"><i class="fal fa-hand-rock fa-3x"></i></button></div>
+      <div class="box victor"></div>
+      <div class="box"><button><i class="fal fa-hand-rock fa-3x"></i></button></div>
+      <div class="box"><button class="buttons" onclick="playRound(this); roundChange();" data-hand="2" id="Paper"><i class="fal fa-hand-paper fa-3x"></i></button></div>
+      <div class="box name">User</div>
+      <div class="box name vs">vs</div>
+      <div class="box name">Computer</div>
+      <div class="box"><button><i class="fal fa-hand-paper fa-3x"></i></button></div>
+      <div class="box"><button class="buttons" onclick="playRound(this);" data-hand="3" id="Scissors"><i class="fal fa-hand-scissors fa-3x"></i></button></div>
+      <div class="box name">0</div>
+      <div class="box "><button class="reset" onclick="reset();">Reset</i></button></div>
+      <div class="box name">0</div>
+      <div class="box"><button><i class="fal fa-hand-scissors fa-3x"></i></button></div>
+    </div>
+  <div class="result-wrapper">
+  </div>
+  </body>
+</html>
